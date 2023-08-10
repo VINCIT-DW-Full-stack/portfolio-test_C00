@@ -18,9 +18,9 @@ Este será um _projeto teste_ para entendermos a ideia, como será o desenvolvim
     - [Rodando os Testes](#rodando-os-testes)
   - [Requisitos do Projeto](#requisitos-do-projeto)
     - [Lista de Requisitos](#lista-de-requisitos)
-      1. [Crie un `<header/>`](#1---crie-um-header)
-      2. [Crie um `<body/>`](#2---crie-um-body)
-      3. [Crie um `<footer/>`](#3---crie-um-footer)
+      - [1 -Crie un `<header/>`](#1---crie-um-header)
+      - [2 - Crie um `<body/>`](#2---crie-um-body)
+      - [3 - Crie um `<footer/>`](#3---crie-um-footer)
   - [Considerações Finais](#considerações-finais)
 
 ---
@@ -66,7 +66,7 @@ Se desejar fazer uso de alguma biblioteca como o _Bootstrap_, por exemplo, fique
 
 #### Clonando o Projeto
 
-Para começar a desenvolver o projeto você deve clonar o proejto para um repositório vazio em sua máquina, um repositório criado, especialmente, para o desenvolvimento do projeto.
+Para começar a desenvolver você deve clonar o projeto para um repositório vazio em sua máquina, um repositório criado, especialmente, para o desenvolvimento do projeto.
 
 Para clonar o projeto clique no botão `Code`:
 
@@ -82,11 +82,11 @@ Em seguida, abra o terminal no repositório dedicado ao projeto e dê um _git cl
 
 <img src="./img_doc/git_clone.png">
 
-Concluído estes passos, você estará com o projto baixado em sua máquina.
+Concluído estes passos, você estará com o projeto baixado em sua máquina.
 
 #### Iniciando o Projeto
 
->**:warning: PARA FAZER O PROJETO VOCÊ PRECISARÁ CRIAR UM ARQUIVO HTML COM O NOME `index.html`, POIS OS _CYPRESS_ VAI BUSCAR POR ESTE ARQUIVO PARA EXECUTAR OS TESTES :warning:**
+>**:warning: PARA FAZER O PROJETO VOCÊ PRECISARÁ CRIAR UM ARQUIVO HTML COM O NOME `index.html`, POIS O _CYPRESS_ VAI BUSCAR POR ESTE ARQUIVO PARA EXECUTAR OS TESTES :warning:**
 
 1. Entre na pasta que você acabou de clonar:
 
@@ -120,13 +120,13 @@ Para nomear sua branch coloque, primeiro o seu nome de usuário do GitHub e em s
 git checkout -b edi-santos-portfolio
 ```
 
->_Obs._: O comando acima executa 3 ações: sai da branch a partir da branch anterior, cria a nova branch e entra na branch criada.
+>_Obs._: O comando acima executa 3 ações: sai da branch; a partir da branch anterior, cria a nova branch; e entra na branch criada.
 
-É nessa branch que você desenvolverá **todo** o seu projeto submetendo seus `commits`, seguindo os requisitos e cumprindo os testes.
+É nessa branch que você desenvolverá **TODO** o seu projeto submetendo seus `commits`, seguindo os requisitos e cumprindo os testes.
 
 3. Instale as dependências do projeto
 
-Com a sua branch criada e estando como a atual, instale as dependências do projeto usando o comando:
+Com a sua branch criada a partir da _master_, instale as dependências do projeto usando o comando:
 
 ```
 npm install
@@ -137,12 +137,12 @@ npm install
 Feito tudo isto, é hora de fazer o primeiro _commit_ para podermos abrir um _Pull Request_ e subir nossa branch para o repositŕoio remoto.
 
 - Faça a primeira alteração criando um arquivo `HTML` com o nome: `index.html`;
-- Verifique o status do Git: `git status`. Deve aparecer em vermelho o nome do arquivo criado e, possivelmente, outros arquivos que surgiram após a instalação das dependências;
+- Verifique o status do Git: `git status`. Deve aparecer, em vermelho, o nome do arquivo criado e, possivelmente, outros arquivos que surgiram após a instalação das dependências;
 - Adicione todas as alteração ao **stage** do Git de uma vez: `git add .`;
 - Confira o status do Git novamente: `git status`. As alterações adicionadas ao _stage_, agora, aparecerão com o nome em verde;
-- Em seguida, faça o commit da alterações adicionadas ao _stage_ com uma mensagem. Exemplo: `git commit -m 'iniciando o projeto :rocket:'`;
+- Em seguida, faça o commit das alterações adicionadas ao _stage_ com uma mensagem. Exemplo: `git commit -m 'iniciando o projeto :rocket:'`;
 
-> _Obs1._: A _flag_ `-m` é que nos permite adicionar mensagem ao commit. Sempre utilize desta _flag_, pois faz parte das _boas práticas_ de desenvolvimento.
+> _Obs1._: A _flag_ `-m` é que nos permite adicionar uma mensagem ao commit. Sempre utilize esta _flag_, pois faz parte das _boas práticas_ de desenvolvimento.
 
 - Confira, novamente, o _stage_. Desta vez deve aparecer a mensagem `nothing to commit, working tree clean` ou algo do tipo;
 
@@ -190,7 +190,7 @@ Em seguida abrirá a seguinte tela:
 
 <img src="./img_doc/cypress.png">
 
-Nesta tela serão exibidos os arquivos que contem os testes. <br>
+Nesta tela serão exibidos os arquivos que contém os testes. <br>
 
 Abra o arquivo `test.spec.js`. A tela que abrirá será a seguinte:
 
@@ -204,7 +204,7 @@ Ao começar a desenvolver seu projeto, conforme for evoluindo, você deve ir rod
 
 >:exclamation: _**DICA**_: Esteja atento às mensagens de erro, pois elas costumam ser muito certeiras e claras sobre o que está acontecendo para que esteja dando o erro :exclamation:
 
-Você deve ir cumprindo com os requisitos até que todos os testes estejam passando. Ao concluir este objetivo a tela mostrará todos os testes o sinal de _check_ verde.
+Você deve ir cumprindo com os requisitos até que todos os testes estejam passando. Ao concluir este objetivo o _Cypress_ mostrará todos os testes com o sinal de _check_ verde.
 
 <img src="./img_doc/cy_success.png">
 
@@ -218,7 +218,7 @@ A seguir estarei deixando um exemplo para servir de inspiração ou, até mesmo,
 
 <img src="./img_doc/portfolio_exemple.png">
 
-Se até aqui você ainda não criou o arquivo `index.html` na raiz do projeto, este é o primeiro passo para começar a desenvolver os requisitos.
+>:warning: Se até aqui você ainda não criou o arquivo `index.html` na raiz do projeto, este é o primeiro passo para começar a desenvolver os requisitos.
 
 #### Lista de Requisitos
 
