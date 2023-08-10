@@ -88,6 +88,8 @@ Concluído estes passos, você estará com o projeto baixado em sua máquina.
 
 >**:warning: PARA FAZER O PROJETO VOCÊ PRECISARÁ CRIAR UM ARQUIVO HTML COM O NOME `index.html`, POIS O _CYPRESS_ VAI BUSCAR POR ESTE ARQUIVO PARA EXECUTAR OS TESTES :warning:**
 
+>_**DICA**_: Você pode usar o comando `git help` para obter mais informações sobre os _comandos do Git_.
+
 1. Entre na pasta que você acabou de clonar:
 
 ```
